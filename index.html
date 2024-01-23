@@ -55,25 +55,32 @@
                     <div class="navbar-center hidden lg:flex">
                       <ul class="menu menu-horizontal px-1">
                           <li><a class="text-red-600">Home</a></li>
-                          <li><a>About</a></li>
-                          <li><a>Pages</a></li>
-                          <li><a>Blog</a></li>
-                          <li><a>Contact</a></li>
+                          <li><a class="text-gray">About</a></li>
+                          <li><a class="text-gray">Pages</a></li>
+                          <li><a class="text-gray">Blog</a></li>
+                          <li><a class="text-gray">Contact</a></li>
                       </ul>
                     </div>
                     <div class="navbar-end">
-                        <div class="flex">
-                            <div><i class="fa-solid fa-magnifying-glass"></i></div> 
-                           <div><a class="btn btn-error">Get Ticket</a></div> 
+                        <div class="lg:flex hidden lg:px-5">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div> 
+                         <div><a class="btn btn-error">Get Ticket</a></div>
                           
-                        </div>
+                        
                        
                     </div>
                   </div>
             </nav>
-            <div class="carousel w-full">
-                <div id="slide1" class="carousel-item relative w-full h-[550px]">
+            <div class="my-10">
+                <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
                   <img src="images/1.png" alt="" class="w-full">
+                  <div class="lg:w-[500px] h-[100px] p-4 top-[600px] left-[1000px] bg-black absolute bottom-right-0">
+                  <h1 class="text-2xl text-white font-extrabold">Meet all the heroes from the field</h1>
+                  <p class="text-gray text-white font-medium">Ranger score 3 straight in 2nd,realy sad</p>
+
+                  </div>
                   <div class="absolute flex justify-start left-5 right-5 bottom-1/4 rounded-full gap-2">
                     <a href="#slide4" class="btn btn-neutral rounded-full">❮</a> 
                     <a href="#slide2" class="btn btn-neutral rounded-full">❯</a>
@@ -85,14 +92,69 @@
                   <div class="absolute flex justify-start left-5 right-5 bottom-1/4 rounded-full gap-2">
                     <a href="#slide1" class="btn btn-neutral rounded-full">❮</a> 
                     <a href="#slide3" class="btn btn-neutral rounded-full">❯</a>
-                  
                 </div> 
                 </div>
-              </div>
+              </div></div>
+            
         </section>
 
     </header>
-    <main>
+    <main class="mx-auto">
+        <!--hockeys club section-->
+        <div class="w-full border-opacity-50">
+            <div class="grid p-10 card bg-white rounded-box place-items-center">
+                <h3 class="text-3xl gap-4 font-semibold">Professional Hockeys Club</h3>
+                <p class="text-lg p-4">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+            
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                <div class="justify-center">
+
+                    <div class="radial-progress text-red-500" style="--value:87;" role="progressbar">87%</div>
+                <h3 class="text-xl p-4">Prayer Facility</h3>
+                <p class="text-sm items-center">Amet consectetur. Condimentum  <br>  dignissim adipiscing.</p>
+
+                </div>
+                    <div class="justify-center">
+                        <div class="radial-progress text-green-500" style="--value:95;" role="progressbar">95%</div>
+                        <h3 class="text-xl p-4 items-center">Experienced Coach</h3>
+                        <p class="text-sm items-center">Amet consectetur. Condimentum  <br>  dignissim adipiscing.</p>
+
+                    </div>
+                <div class="justify-center">
+                    <div class="radial-progress text-yellow-500" style="--value:90;" role="progressbar">90%</div>
+                    <h3 class="text-xl p-4 items-center">Senior Player</h3>
+                    <p class="text-sm items-center">Amet consectetur. Condimentum  <br>  dignissim adipiscing.</p>
+                </div>
+                
+                <div class="justify-center">
+                    <div class="radial-progress text-blue-500" style="--value:80;" role="progressbar">80%</div>
+                    <h3 class="text-xl p-4 items-center">Training Ground</h3>
+                    <p class="text-sm items-center">Amet consectetur. Condimentum  <br>  dignissim adipiscing.</p></div>
+                
+                </div>
+                
+            </div>
+            <!--program section-->
+            <section>
+                <div class="text-center my-24">
+                    <h3 class="text-3xl gap-4 p-4 font-bold mb-5">Program Sections</h3>
+                    <p class="lg:max-w-3xl mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor.<br> Purus urna in sit nullam proin. </p>
+                </div>
+                <div class="grid gap-8 grid-cols-1 md:grid-cols-2">
+                    <div class=" relative ">
+                    <div class="absolute text-center">
+                        <h3>Junior Program</h3>
+                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                            <button class="text-base p-2 text-white bg-red-600">Register Now!</button>
+                        <img src="Images/2.png" alt="">
+                    </div>
+                    </div>
+                    <div><img src="Images/3.png" alt=""></div>
+                    <div class="col-span-2"><img src="Images/4.png" alt=""></div>
+                </div>
+            </section>
 
     </main>
     <footer>
